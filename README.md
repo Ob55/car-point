@@ -23,6 +23,7 @@ Car Web is a website that showcases a variety of cars, provides information abou
 
 ## Getting Started
 
+
 ### Prerequisites
 
 Before you begin, ensure you have the following installed:
