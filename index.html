@@ -3,9 +3,222 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Car web</title>
+  <link rel="stylesheet" href="style.css"> 
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-   <h1>hwllow</h1>
+  <header>
+    <div class="nav container">
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <a href="#" class="logo">Car<span>point</span></a>
+      <ul class="navbar">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#car">Car</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#blog">Our Blog</a></li>
+      </ul>
+      <i class='bx bx-search' id="search-icon"></i>
+      <div class="search-box container">
+        <input type="search" name="" id="" placeholder="search here......">
+      </div>
+    </div>
+  </header>
+      
+          <section class="home" id="home"></section>
+          <div class="home-text">
+             <h1>We have Everything<br>your<span> Car</span> Need</h1>
+             <p><b>This Are Some Of The The Things U Need To Have</b><br>First Aid Kit,Battery,Brakes,Pistons,Radiator,<br>Phone charger,Tire Jack, Spare Tire, and Lug Wrench
+             </p>
+               <a href="#" class="btn">Discover Now</a>
+          </div>
+
+          <section class="cars" id="cars"></section>
+          <div class="heading">
+            <span>All Have </span>
+          <h2>All Types Of Cars</h2>
+            <p>we have diverse range of cars available to own but most cars come in one of seven car body types: Hatchback, Sedan, SUV, MUV, Coupe, Convertible, and Pickup Truck</p>
+          </div>
+
+           <div class="cars-container container">
+               <div class="box">
+                 <img src="img/car1.jpg" alt="">
+                 <h2>Porshe Car</h2>
+               </div>
+
+               <div class="box">
+               <img src="img/car2.jpg" alt="">
+               <h2>Audi A5 Car</h2>
+             </div>
+
+             <div class="box">
+             <img src="img/car3.jpg" alt="">
+             <h2>Audi Q8 Car</h2>
+           </div>
+
+           <div class="box">
+           <img src="img/car4.jpg" alt="">
+           <h2>Audi A3 Car</h2>
+         </div>
+
+         <div class="box">
+         <img src="img/car5.jpg" alt="">
+         <h2>Audi R8 Car</h2>
+       </div>
+
+       <div class="box">
+       <img src="img/car6.jpg" alt="">
+       <h2>Mustang Car</h2>
+     </div>
+           </div>
+            
+             <section class="about container" id="about">
+                   <div class="about-img">
+              <img src="img/about.png" alt="">
+            </div>
+               <div class="about-text">
+                     <span>About us</span>
+                       <h2>cheap price and <br>Quality Cars</h2>
+                       <p>We Offer Cheap And Quality Cars</p>
+                        <a href="#" class="btn">Learn More</a>
+                      </div>
+                      </section>
+                       
+                      <section class="parts" id="parts">
+                        <div class="heading">
+                          <span>What We offer</span>
+                          <h2>Our Car is All Excellent</h2>
+                          <p>Our Cars Are in Best Condition when You Purches<br><b>We Offer Spare Part to Here Are Some Of The parts.</b></p>
+                        </div>
+                           
+                         <div class="parts-container container">
+                          <div class="box">
+                            <img src="img/part1.png" alt="">
+                             <h3>Auto Spare parts</h3>
+                              <span>$120.99</span>
+                              <i class='bx bxs-star'>(6 reviews)</i>
+                              <a href="#" class="btn">Buy Now</a>
+                              <a href="#" class="details">View Details</a>
+                          </div>
+
+                        <div class="box">
+                          <img src="img/part2.png" alt="">
+                           <h3>Auto Spare parts</h3>
+                            <span>$120.99</span>
+                            <i class='bx bxs-star'>(6 reviews)</i>
+                            <a href="#" class="btn">Buy Now</a>
+                            <a href="#" class="details">View Details</a>
+                        </div>
+
+                        <div class="box">
+                        <img src="img/part3.png" alt="">
+                         <h3>Auto Spare parts</h3>
+                          <span>$120.99</span>
+                          <i class='bx bxs-star'>(6 reviews)</i>
+                          <a href="#" class="btn">Buy Now</a>
+                          <a href="#" class="details">View Details</a>
+                      </div>
+
+                      <div class="box">
+                      <img src="img/part4.png" alt="">
+                       <h3>Auto Spare parts</h3>
+                        <span>$120.99</span>
+                        <i class='bx bxs-star'>(6 reviews)</i>
+                        <a href="#" class="btn">Buy Now</a>
+                        <a href="#" class="details">View Details</a>
+                    </div>
+                    <div class="box">
+                    <img src="img/part5.png" alt="">
+                     <h3>Auto Spare parts</h3>
+                      <span>$120.99</span>
+                      <i class='bx bxs-star'>(6 reviews)</i>
+                      <a href="#" class="btn">Buy Now</a>
+                      <a href="#" class="details">View Details</a>
+                  </div>
+                  <div class="box">
+                  <img src="img/part6.png" alt="">
+                   <h3>Auto Spare parts</h3>
+                    <span>$120.99</span>
+                    <i class='bx bxs-star'>(6 reviews)</i>
+                    <a href="#" class="btn">Buy Now</a>
+                    <a href="#" class="details">View Details</a>
+                </div>
+                         </div>
+                          
+                    <div class="modal" id="galleryModal">
+                      <span class="close-modal" id="closeModal">&times;</span>
+                      <img class="modal-content" id="modalImage">
+                    </div>
+
+                      </section>
+                        
+                       <section class="blog" id="blog">
+                        <div class="heading">
+                          <span>Blog &  News</span>
+                        <h2>Our Blog Content</h2>
+                          <p>Cars have become more than just modes of transportation; they are symbols of freedom, power, and the joy of the open road. In this blog post, we dive into the exhilarating world of cars, celebrating the art of driving and the diverse automotive landscape.</p>
+                        </div>
+                         <div class="blog-container container">
+                          <div class="box">
+                            <img src="img/car1.jpg" alt="">
+                            <span>Dec 14 2016</span>
+                              <h3>How To Get Perfect Car At Low Price</h3>
+                              <p>Both engines pair with an S tronic® dual-clutch transmission with seven gear ratios as well as the quattro® all-wheel drive system with fuel-saving ultra® technology.</p>
+                              <a href="#" class="blog-btn">Read More<i class='bx bx-right-arrow-alt'></i></a>  
+                          </div>
+                          <div class="box">
+                            <img src="img/car4.jpg" alt="">
+                            <span>Jan 14 2018</span>
+                              <h3>How To Get Perfect Car At Low Price</h3>
+                              <p>The standard 2.0-liter -Turbo Fuel Stratified Injection-or TFSI® -engine of the Audi A3 offers 201 horsepower and 221 lb-ft of torque.</p>
+                              <a href="#" class="blog-btn">Read More<i class='bx bx-right-arrow-alt'></i></a>  
+                          </div>
+                          <div class="box">
+                            <img src="img/car5.jpg" alt="">
+                            <span>Feb 10 2015</span>
+                              <h3>How To Get Perfect Car At Low Price</h3>
+                              <p>With a 5.2-liter V10 engine, 7-speed automatic transmission, and a weight reduction from previous models, the Audi R8 V10 can reach 0-60 in a mere 3.4 seconds.</p>
+                              <a href="#" class="blog-btn">Read More<i class='bx bx-right-arrow-alt'></i></a>  
+                          </div>
+                         </div>
+                           <section class="footer">
+                            <div class="footer-container container">
+                              <div class="footer-box">
+                                <a href="#" class="logo">Car<span>point</span></a>
+                                <div class="social">
+                                  <a href="#"><i class='bx bxl-facebook'></i></a>
+                                  <a href="#"><i class='bx bxl-twitter'></i></a>
+                                  <a href="#"><i class='bx bxl-instagram'></i></a>
+                                  <a href="#"><i class='bx bxl-youtube'></i></a>
+                                </div>
+                              </div>
+                              <div class="footer-box">
+                                <h3>page</h3>
+                                <a href="#">Home</a>
+                                <a href="#">cars</a>
+                                <a href="#">parts</a>
+                                <a href="#">Sales</a>
+
+                              </div>
+                               
+                              <div class="footer-box">
+                                <h3>Legal</h3>
+                                <a href="#">privacy</a>
+                                <a href="#">Refund Policy</a>
+                                <a href="#">Cookie Policy</a>
+                              </div>
+                              <div class="footer-box">
+                                <h3>Contact</h3>
+                                <p><b>United States:</b>(315) 337-3303</span>
+                                <p><b>Japan:</b>+8190-072-9094 </p>
+                                <p><b>Kenya:</b>+245 746820327</p>
+                              </div>
+                            </div>
+                            <div class="copyright"></div>
+                            <p>&#169; CarpoolVenom All Right Reserved</p>
+                           </section>
+                       </section>
+                          
+  <script src="script.js"></script>
 </body>
 </html>
