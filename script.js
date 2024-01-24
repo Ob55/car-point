@@ -55,6 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
           }
           return res.json();
       })
+      
       .then(function (data) {
           const carBrandsContainer = document.getElementById("car-brands-container");
 
